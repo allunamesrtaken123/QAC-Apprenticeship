@@ -12,4 +12,6 @@ Once implemented, the algorithm was perfect on 50 videos that it was tested on.
 #### A few notes on Weeks7_8_Final_Code.ipynb:
 - Don't run the part of the notebook that says Not Final Version. It's not the final version
 - The first part will take a directory of videos, the directory to which the stacked images will be stored, and where a bookkeeping file will be kept to help with post-processing
+- The videos should be mp4 format and have unique names
+- There will be a small investment required by a human to take the results of the Google OCR and feed them back to the second part by pointing to where those OCR results are stored
 - The second part takes the output from Google OCR as well as the bookkeeping file and produces the text that occured in the video
